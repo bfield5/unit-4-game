@@ -1,0 +1,23 @@
+.crystal-image {
+    width: 150px;
+    height: 200px;
+  }
+
+  
+
+  .background {
+    background-image: url('https://thewallpaper.co/wp-content/uploads/2017/10/flowers-stock-images-view-globe-windows-desktop-images-ball-leavesvectorhd-images-border-crystal-backgrounds-sphere.jpg');
+  }
+
+  .btn {
+      
+    background-image:url('https://thumbs.gfycat.com/BackDimIrrawaddydolphin-size_restricted.gif');
+    background-repeat:no-repeat;
+    }
+    .card-header {
+        color: white;
+        background-image: url('https://thewallpaper.co/wp-content/uploads/2017/10/flowers-stock-images-view-globe-windows-desktop-images-ball-leavesvectorhd-images-border-crystal-backgrounds-sphere.jpg');
+    }
+    .card-body {
+      color: blue;
+    }
