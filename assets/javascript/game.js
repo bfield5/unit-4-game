@@ -20,7 +20,7 @@ $(document).ready(function(){
     
         $("#current-score").empty();
         currentTotalScore = 0;
-        targetNumber = Math.floor(Math.random() * 201);
+        targetNumber = Math.floor(Math.random() * 120);
         $("#crystals").empty()
         $("#number-to-guess").text(targetNumber);
         gameLoad();
@@ -33,7 +33,7 @@ $(document).ready(function(){
     var imageCrystal = $("<img>");
     imageCrystal.addClass("crystal-image"); 
     imageCrystal.attr("src", crystalArray[i]);
-    imageCrystal.attr("data-crystalvalue", Math.floor(Math.random() * 50), +1);
+    imageCrystal.attr("data-crystalvalue", Math.floor(Math.random() * 12), +1);
     $("#crystals").append(imageCrystal);
     }  
 
